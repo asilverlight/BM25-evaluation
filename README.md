@@ -1,2 +1,4 @@
 # BM25-evaluation
 对msmarco训练集做预处理，之后做bm25检索，并计算metric
+convert_run_to_trec_run文件是将bm25返回好的结果处理成trec可接受的形式
+convert_train_to_trec_qrels文件是将原始train文件处理成trec可接受的形式，只保留rel为1的q-d对
