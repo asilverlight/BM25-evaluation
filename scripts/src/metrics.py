@@ -232,7 +232,7 @@ class Metric:
                 counts += 1
 
                 for i, pred in enumerate(preds, 1):
-                    if pred.doc_id in pos_indices:
+                    if int(pred.doc_id) in pos_indices:
                         for k, cutoff in enumerate(cutoffs):
                             if i <= cutoff:
                                 mrrs[k] += 1 / i
@@ -316,11 +316,11 @@ class Metric:
                 counts += 1
 
                 for i, pred in enumerate(preds, 1):
-                    if pred.doc_id in pos_indices:
+                    if int(pred.doc_id) in pos_indices:
                         for k, cutoff in enumerate(cutoffs):
                             if i <= cutoff:
                                 # get the relevance score of the pred
-                                dcg[k] += (2 ** pos_indices_to_scores[pred.doc_id] - 1) / np.log2(i + 1)
+                                dcg[k] += (2 ** pos_indices_to_scores[int(pred.doc_id)] - 1) / np.log2(i + 1)
 
                 # descendingly sort positives to acquire the ideal ranking
                 ideal_ranking = sorted(pos_scores, reverse=True)

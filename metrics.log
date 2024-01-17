@@ -1,0 +1,20 @@
+Time      : "2024-01-16, 22:41:37"
+Command   : "eval_like_searchgpt.py"
+Args      : {"model_cache_dir": "/share/LMs", "dataset_cache_dir": "/share/peitian/Data/Datasets/huggingface", "eval_data": "/share/peitian/Data/Datasets/llm-embedder/qa/msmarco/train.json", "model_name_or_path": "meta-llama/Llama-2-7b-chat-hf", "tokenizer_name_or_path": "meta-llama/Llama-2-7b-chat-hf", "padding_side": "left", "access_token": null, "max_length": 2048, "lora": null, "dtype": "bf16", "device_map": null, "use_flash_attention_2": false, "cpu": false, "metrics": ["mrr", "recall", "ndcg"], "bm25_results": "/share/yutao/yifei/bm25_data/output_runs/run.msmarco.tsv", "output_dir": "/share/yutao/yifei/bm25_data/results", "cutoffs": [1, 5, 10]}
+Metrics   : {"mrr@1": NaN, "mrr@5": NaN, "mrr@10": NaN, "recall@1": NaN, "recall@5": NaN, "recall@10": NaN, "ndcg@1": NaN, "ndcg@5": NaN, "ndcg@10": NaN}
+
+Time      : "2024-01-16, 23:40:44"
+Command   : "eval_like_searchgpt.py"
+Args      : {"model_cache_dir": "/share/LMs", "dataset_cache_dir": "/share/peitian/Data/Datasets/huggingface", "eval_data": "/share/peitian/Data/Datasets/llm-embedder/qa/msmarco/train.json", "model_name_or_path": "meta-llama/Llama-2-7b-chat-hf", "tokenizer_name_or_path": "meta-llama/Llama-2-7b-chat-hf", "padding_side": "left", "access_token": null, "max_length": 2048, "lora": null, "dtype": "bf16", "device_map": null, "use_flash_attention_2": false, "cpu": false, "metrics": ["mrr", "recall", "ndcg"], "bm25_results": "/share/yutao/yifei/bm25_data/output_runs/run.msmarco.tsv", "output_dir": "/share/yutao/yifei/bm25_data/results", "cutoffs": [1, 5, 10]}
+Metrics   : {"mrr@1": NaN, "mrr@5": NaN, "mrr@10": NaN, "recall@1": NaN, "recall@5": NaN, "recall@10": NaN, "ndcg@1": NaN, "ndcg@5": NaN, "ndcg@10": NaN}
+
+Time      : "2024-01-17, 10:15:00"
+Command   : "eval_like_searchgpt.py"
+Args      : {"model_cache_dir": "/share/LMs", "dataset_cache_dir": "/share/peitian/Data/Datasets/huggingface", "eval_data": "/share/peitian/Data/Datasets/llm-embedder/qa/msmarco/train.json", "model_name_or_path": "meta-llama/Llama-2-7b-chat-hf", "tokenizer_name_or_path": "meta-llama/Llama-2-7b-chat-hf", "padding_side": "left", "access_token": null, "max_length": 2048, "lora": null, "dtype": "bf16", "device_map": null, "use_flash_attention_2": false, "cpu": false, "metrics": ["mrr", "recall", "ndcg"], "bm25_results": "/share/yutao/yifei/bm25_data/output_runs/run.msmarco.tsv", "output_dir": "/share/yutao/yifei/bm25_data/results", "cutoffs": [1, 5, 10]}
+Metrics   : {"mrr@1": 0.0, "mrr@5": 0.0, "mrr@10": 0.0, "recall@1": 0.12669282431954795, "recall@5": 0.356141529358296, "recall@10": 0.4763797879703331, "ndcg@1": 0.0, "ndcg@5": 0.0, "ndcg@10": 0.0}
+
+Time      : "2024-01-17, 10:57:54"
+Command   : "eval_like_searchgpt.py"
+Args      : {"model_cache_dir": "/share/LMs", "dataset_cache_dir": "/share/peitian/Data/Datasets/huggingface", "eval_data": "/share/peitian/Data/Datasets/llm-embedder/qa/msmarco/train.json", "model_name_or_path": "meta-llama/Llama-2-7b-chat-hf", "tokenizer_name_or_path": "meta-llama/Llama-2-7b-chat-hf", "padding_side": "left", "access_token": null, "max_length": 2048, "lora": null, "dtype": "bf16", "device_map": null, "use_flash_attention_2": false, "cpu": false, "metrics": ["mrr", "recall", "ndcg"], "bm25_results": "/share/yutao/yifei/bm25_data/output_runs/run.msmarco.tsv", "output_dir": "/share/yutao/yifei/bm25_data/results", "cutoffs": [1, 5, 10]}
+Metrics   : {"mrr@1": 0.13100867070051775, "mrr@5": 0.21377476971692028, "mrr@10": 0.2300309558958392, "recall@1": 0.12669282431954795, "recall@5": 0.356141529358296, "recall@10": 0.4763797879703331, "ndcg@1": 0.13100867070051775, "ndcg@5": 0.24665838532157616, "ndcg@10": 0.2860854962882791}
+
